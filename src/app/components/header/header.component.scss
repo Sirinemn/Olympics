@@ -1,31 +1,38 @@
 
-h2{
-    font-family: "Olympic Sans", Arial, Helvetica, sans-serif;
-    font-size: 2.2rem;
-    line-height: 3.2rem;
-    margin: 0px 0px 1.6rem;
-}
 .rings{
     width:100px;
     height: 50px;
     float: right;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+header {
+    background-color: #f8f9fa; /* Couleur de fond légère */
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0; /* Légère bordure en bas */
+}
+
+.nav img.rings {
+    width: 100px;
+    height: auto; /* Garder les proportions */
+    margin-right: 20px; /* Espacement à droite */
+}
+
+nav ul {
     display: flex;
-
+    align-items: center; /* Aligner verticalement */
 }
 
-li a {
-    display: block;
-    color: rgba(10, 2, 2, 0.885);
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
+nav ul li {
+    margin-right: 20px; /* Espacement entre les éléments */
 }
-li a:hover {
-    opacity: 50%;
-    color: #4f772d;
+
+nav ul li a {
+    color: #343a40; /* Couleur de texte */
+    font-weight: bold;
+    text-transform: uppercase; /* Tout en majuscules */
 }
+
+nav ul li a:hover {
+    opacity: 0.8;
+    color: #0056b3; /* Couleur au survol */
+}
+
