@@ -72,7 +72,7 @@ export class ChartService {
             const firstPoint = points[0];
             const datapoint = firstPoint.index;
             this.countryName = this.pieChart.data.labels[datapoint];
-            this.router.navigate([]);
+            this.router.navigate([`detail/${this.countryName}`]);
           }
         },
       },
