@@ -2,11 +2,14 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ChartService } from '../../core/services/chart.service';
 import { OlympicService } from '../../core/services/olympic.service';
 import { Subscription } from 'rxjs';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-pie-chart',
   standalone: true,
-  imports: [],
+  imports: [
+    CommonModule
+  ],
   templateUrl: './pie-chart.component.html',
   styleUrl: './pie-chart.component.scss'
 })

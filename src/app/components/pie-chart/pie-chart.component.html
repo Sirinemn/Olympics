@@ -1,1 +1,13 @@
-<p>pie-chart works!</p>
+<div *ngIf="errorMessage" class="text-danger">{{errorMessage}} </div>
+
+<div *ngIf="!errorMessage">
+<div class="titre" >
+    <h2> Medals per Country</h2>
+</div>
+    <section class="row">
+        <div class="col-md-1"> Number Of JO's {{numberOfJo}} </div>
+        <div class="col-md-1"> Number of Countries {{numberOfCountries}} </div>
+    </section>
+<div class="chart">
+<canvas  id="MyChart" ></canvas> 
+</div>

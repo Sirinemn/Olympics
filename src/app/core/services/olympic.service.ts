@@ -7,7 +7,7 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
   providedIn: 'root'
 })
 export class OlympicService {
-  private olympicUrl = '../../../../public/mock';
+  private olympicUrl = '/mock/olympic.json';
   private olympics$ = new BehaviorSubject<OlympicCountry[] | null>([]);
 
   constructor(private http: HttpClient) { }
