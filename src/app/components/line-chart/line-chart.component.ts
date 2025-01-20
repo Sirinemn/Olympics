@@ -27,7 +27,6 @@ export class LineChartComponent implements OnInit, OnDestroy{
     private chartService: ChartService,
     private olympicService: OlympicService,
     private activatedRoute: ActivatedRoute,
-    private location: Location
   ) {}
   
   ngOnInit(): void {
