@@ -1,16 +1,20 @@
 footer {
-    padding: 10px 20px;
-    color: white;
-  }
-  a{
-    text-decoration:none;
-  }
-  p{
-    color: black;
-  }
-  .nav{
-    position: relative;
-    bottom: 40px;
-    float: right;
-    color: black;
-  }
+  background-color: #f8f9fa; 
+  padding: 20px;
+  text-align: center;
+}
+
+footer p a {
+  color: #17a2b8; /* Couleur du lien */
+  text-decoration: none;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+footer .nav {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9rem; /* Taille de texte plus petite */
+}
