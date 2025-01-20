@@ -19,6 +19,9 @@ header {
 nav ul {
     display: flex;
     align-items: center; /* Aligner verticalement */
+    list-style-type: none; /* Enlever les puces */
+    margin: 0;
+    padding: 0; /* Enlever les marges et les paddings */
 }
 
 nav ul li {
@@ -35,4 +38,5 @@ nav ul li a:hover {
     opacity: 0.8;
     color: #0056b3; /* Couleur au survol */
 }
+
 
