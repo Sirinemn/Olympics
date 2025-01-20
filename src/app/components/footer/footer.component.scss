@@ -1,11 +1,19 @@
 footer {
-  background-color: #f8f9fa; 
+  background-color: #343a40;
   padding: 20px;
+  color: white;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer div {
+  margin-bottom: 10px;
 }
 
 footer p a {
-  color: #17a2b8; /* Couleur du lien */
+  color: #17a2b8;
   text-decoration: none;
 }
 
@@ -14,7 +22,19 @@ footer p a:hover {
 }
 
 footer .nav {
-  display: block;
-  margin-top: 10px;
-  font-size: 0.9rem; /* Taille de texte plus petite */
+  font-size: 0.9rem;
+  color: #bbbbbb;
 }
+
+@media (min-width: 768px) {
+  footer {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  footer div {
+      margin-bottom: 0;
+  }
+}
+
